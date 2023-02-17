@@ -33,6 +33,10 @@ public class Tasklist {
         return this.tasks;
     }
 
+    public int getTasksNum() {
+        return this.tasks.size();
+    }
+
     /**
      *  gets the size of current tasklist
      * @return size of tasklist in int
